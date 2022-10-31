@@ -50,5 +50,9 @@ public class MemoVO {
 		this.wdate = wdate;
 	}
 	
+	@Override
+	public String toString() {
+		return "idx : "+idx+" msg : "+msg+" name : "+name+" wdate : "+wdate;
+	}
 	
 }
